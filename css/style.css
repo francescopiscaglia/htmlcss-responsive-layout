@@ -32,6 +32,7 @@ footer{
     border: 1px dashed;
 }
 
+/* #region grid and flexbox layout */
 .container{
     width: 90%;
     margin: auto;
@@ -82,6 +83,7 @@ footer{
 .jc-space-around{
     justify-content: space-around;
 }
+/* #endregion grid and flexbox layout */
 
 .tc-center{
     text-align: center;
