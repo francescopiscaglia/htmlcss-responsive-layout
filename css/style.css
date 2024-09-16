@@ -132,6 +132,10 @@ footer{
 
 /* #region main */
 #card{
+
+    .card-info{
+        padding-bottom: 1rem;
+    }
     
     h3{
         color: var(--boo-recipe-type);
@@ -143,7 +147,11 @@ footer{
     h2{
         color: var(--boo-recipe);
         font-size: 1.25rem;
-        padding-bottom: 1rem;
+        display: inline;
+    }
+
+    .subtitle{
+        display: none;
     }
 
     iframe{
@@ -277,6 +285,10 @@ footer{
 
         h2{
             font-size: 1.5rem;
+        }
+
+        .subtitle{
+            display: inline-block;
         }
     }
 
