@@ -147,6 +147,10 @@ section{
         display: none;
     }
 }
+
+#adv{
+    display: none;
+}
 /* #endregion main */
 
 
@@ -178,6 +182,10 @@ section{
         .btn{
             padding: .5rem 3rem;
         }
+    }
+
+    #adv{
+        display: block;
     }
 
 
