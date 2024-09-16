@@ -4,15 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* #region common */
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* #endregion common */
 
 /* #region utilities */
 .debug *{
     border: 1px dashed;
 }
 
-/* #endregion utilities */
+.p-1{
+    padding: 1rem;
+}
 
+/* #endregion utilities */
 
 /* #region color palette */
 :root{
@@ -27,8 +34,40 @@
 
 /* #endregion color palette */
 
-
+/* #region header */
 #app-header{
     text-align: center;
     color: var(--boo-title);
+    font-family: "Nerko One", cursive;
+    font-size: 1.25rem;
 }
+/* #endregion header */
+
+
+
+/* breackpoint sm 768px */
+@media screen and (min-width:768px) {
+
+    .p-sm-1{
+        padding: 1rem;
+    }
+    
+    #app-header{
+        text-align: start;
+        font-size: 1rem;
+    }
+}
+
+/* breackpoint md 992px */
+@media screen and (min-width:992px) {
+
+    .p-md-1{
+        padding: 1rem;
+    }
+    
+    #app-header{
+        text-align: start;
+        font-size: 1.25rem;
+    }
+}
+
