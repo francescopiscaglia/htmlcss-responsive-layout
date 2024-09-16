@@ -50,6 +50,10 @@ section{
     padding: 1rem;
 }
 
+.bg-white{
+    background-color: var(--boo-light);
+}
+
 /* #endregion utilities */
 
 /* #region color palette */
@@ -93,6 +97,14 @@ section{
 
     iframe{
         width: 100%;
+    }
+
+    ul{
+        list-style-type: none;
+        
+        li{
+            padding: .25rem;
+        }
     }
 }
 
