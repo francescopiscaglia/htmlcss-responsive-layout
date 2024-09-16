@@ -70,6 +70,7 @@ section{
     background-color: var(--boo-light);
     border-radius: 1rem;
     padding: .75rem 1.25rem;
+    box-shadow: 0px 2px 5px 0px var(--boo-recipe-type)
 }
 /* #endregion utilities */
 
@@ -141,6 +142,10 @@ section{
         font-weight: bold;
         font-size: .75rem;
     }
+
+    .social-name{
+        display: none;
+    }
 }
 /* #endregion main */
 
@@ -166,6 +171,13 @@ section{
     #app-header{
         text-align: start;
         font-size: 1rem;
+    }
+
+    #social{
+        
+        .btn{
+            padding: .5rem 3rem;
+        }
     }
 
 
@@ -206,6 +218,17 @@ section{
         ul{
            padding: 1rem 0;
            font-size: 0.75rem;
+        }
+    }
+
+    #social{
+
+        .social-name{
+            display: inline-block;
+        }
+
+        .btn{
+            padding: .5rem 1rem;
         }
     }
 }
