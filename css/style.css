@@ -15,6 +15,25 @@ body{
     border: 1px dashed;
 }
 
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col-12{
+    width: 100%;
+}
+
+[class^="col-"]{
+    padding: 0 1rem;
+}
+
 .p-1{
     padding: 1rem;
 }
@@ -48,6 +67,11 @@ body{
 /* breackpoint sm 768px */
 @media screen and (min-width:768px) {
 
+    .container-sm{
+        width: 90%;
+        margin: auto;
+    }
+
     .p-sm-1{
         padding: 1rem;
     }
@@ -56,10 +80,26 @@ body{
         text-align: start;
         font-size: 1rem;
     }
+
+
 }
 
 /* breackpoint md 992px */
 @media screen and (min-width:992px) {
+
+    .container-md{
+        width: 70%;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .col-9-md{
+        width: calc((100% / 12) * 9);
+    }
+
+    .col-3-md{
+        width: calc((100% / 12) * 3);
+    }
 
     .p-md-1{
         padding: 1rem;
