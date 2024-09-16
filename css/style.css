@@ -14,7 +14,7 @@ img{
 }
 
 section{
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 #app-main{
@@ -46,6 +46,14 @@ section{
     padding: 0rem 1rem 0rem 1rem;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.jc-space-between{
+    justify-content: space-between;
+}
+
 .p-1{
     padding: 1rem;
 }
@@ -58,6 +66,11 @@ section{
     background-color: var(--boo-bg);
 }
 
+.btn{
+    background-color: var(--boo-light);
+    border-radius: 1rem;
+    padding: .75rem 1.25rem;
+}
 /* #endregion utilities */
 
 /* #region color palette */
@@ -102,6 +115,7 @@ section{
 
     iframe{
         width: 100%;
+        aspect-ratio: 16/9;
     }
 
     ul{
@@ -119,6 +133,15 @@ section{
     }
 }
 
+#social{
+
+    a{
+        text-decoration: none;
+        color: var(--boo-dark);
+        font-weight: bold;
+        font-size: .75rem;
+    }
+}
 /* #endregion main */
 
 
@@ -129,6 +152,11 @@ section{
     .container-sm{
         width: 85%;
         margin: auto;
+    }
+
+    .d-flex-sm{
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .p-sm-1{
@@ -163,10 +191,22 @@ section{
     .p-md-1{
         padding: 1rem;
     }
+
+    .p-l-0-md{
+        padding-left: 0;
+    }
     
     #app-header{
         text-align: start;
         font-size: 1.25rem;
+    }
+
+    #card{
+    
+        ul{
+           padding: 1rem 0;
+           font-size: 0.75rem;
+        }
     }
 }
 
