@@ -151,6 +151,33 @@ section{
 #adv{
     display: none;
 }
+
+#presentation{
+
+    h2{
+        font-size: 1.25rem;
+        padding: 1rem 0;
+        font-weight: 500;
+    }
+
+    hr{
+        border: .5px solid var(--boo-icon);
+        width: 20%;
+        margin-bottom: 1rem;
+    }
+
+    .description{
+
+        img{
+            box-shadow: 0px 2px 5px 0px var(--boo-recipe-type)
+        }
+
+        p{
+            font-size: 0.85rem;
+            padding-top: .5rem;
+        }
+    }
+}
 /* #endregion main */
 
 
