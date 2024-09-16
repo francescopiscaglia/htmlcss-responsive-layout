@@ -263,12 +263,20 @@ footer{
         margin: auto;
     }
 
+    .col-4-sm{
+        width: calc(( 100% / 12 ) * 4);
+    }
+
     .col-12-sm{
         width: 100%;
     }
 
     .d-flex-sm{
         display: flex;
+        
+    }
+
+    .fw-wrap-sm{
         flex-wrap: wrap;
     }
 
