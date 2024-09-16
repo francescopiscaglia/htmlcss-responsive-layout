@@ -6,6 +6,14 @@
 }
 /* #region common */
 
+/* #region utilities */
+.debug *{
+    border: 1px dashed;
+}
+
+/* #endregion utilities */
+
+
 /* #region color palette */
 :root{
     --boo-light: #ffffff;
@@ -18,3 +26,9 @@
 }
 
 /* #endregion color palette */
+
+
+#app-header{
+    text-align: center;
+    color: var(--boo-title);
+}
