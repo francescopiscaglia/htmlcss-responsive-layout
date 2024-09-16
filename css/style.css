@@ -43,7 +43,7 @@ section{
 }
 
 [class^="col-"]{
-    padding: 1rem 1rem 0rem 1rem;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 .p-1{
@@ -52,6 +52,10 @@ section{
 
 .bg-white{
     background-color: var(--boo-light);
+}
+
+.bg-lighter{
+    background-color: var(--boo-bg);
 }
 
 /* #endregion utilities */
@@ -93,6 +97,7 @@ section{
     h2{
         color: var(--boo-recipe);
         font-size: 1.25rem;
+        padding-bottom: 1rem;
     }
 
     iframe{
@@ -101,9 +106,15 @@ section{
 
     ul{
         list-style-type: none;
+        font-size: .85rem;
+        padding: 1rem;
         
         li{
-            padding: .25rem;
+            padding: .5rem;
+        }
+
+        i{
+            color: var(--boo-icon);
         }
     }
 }
