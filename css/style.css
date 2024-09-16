@@ -8,6 +8,18 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
+
+img{
+    max-width: 100%;
+}
+
+section{
+    padding-top: 1rem;
+}
+
+#app-main{
+    background-color: var(--boo-bg);
+}
 /* #endregion common */
 
 /* #region utilities */
@@ -16,7 +28,7 @@ body{
 }
 
 .container{
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
@@ -31,7 +43,7 @@ body{
 }
 
 [class^="col-"]{
-    padding: 0 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .p-1{
@@ -47,6 +59,7 @@ body{
     --boo-title: #ff9614;
     --boo-bg: #f6f5f3;
     --boo-recipe: #4e3969;
+    --boo-recipe-type: #b6b6b5;
     --boo-icon: #f7972e;
     --boo-footer-bg: #7c69a4;
 }
@@ -59,8 +72,31 @@ body{
     color: var(--boo-title);
     font-family: "Nerko One", cursive;
     font-size: 1.25rem;
+
 }
 /* #endregion header */
+
+/* #region main */
+#card{
+    
+    h3{
+        color: var(--boo-recipe-type);
+        font-weight: 500;
+        font-size: .75rem;
+        padding-bottom: .5rem;
+    }
+
+    h2{
+        color: var(--boo-recipe);
+        font-size: 1.25rem;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
+
+/* #endregion main */
 
 
 
@@ -68,7 +104,7 @@ body{
 @media screen and (min-width:768px) {
 
     .container-sm{
-        width: 90%;
+        width: 85%;
         margin: auto;
     }
 
