@@ -1,0 +1,20 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #region common */
+
+/* #region color palette */
+:root{
+    --boo-light: #ffffff;
+    --boo-dark: #000000;
+    --boo-title: #ff9614;
+    --boo-bg: #f6f5f3;
+    --boo-recipe: #4e3969;
+    --boo-icon: #f7972e;
+    --boo-footer-bg: #7c69a4;
+}
+
+/* #endregion color palette */
